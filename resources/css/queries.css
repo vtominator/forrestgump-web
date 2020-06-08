@@ -1,0 +1,174 @@
+@media only screen and (max-width: 768px) {
+  header {
+    padding: 6rem;
+  }
+
+  header .logo {
+    max-width: 12rem;
+  }
+
+  .landing {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url(img/webp/background.webp),
+      url(img/background.png);
+    background-size: cover;
+    background-position: 180vw;
+  }
+
+  .content {
+    transform: translateY(-35%);
+    width: 50vw;
+  }
+
+  .content h2 {
+    font-weight: bold;
+    font-size: 2.5rem;
+  }
+
+  .content h4 {
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+  }
+
+  .content blockquote {
+    font-size: 1.8rem;
+    line-height: 3rem;
+    margin-bottom: 5rem;
+  }
+
+  blockquote q {
+    padding-bottom: 2.5rem;
+  }
+
+  .play {
+    font-size: 1.5rem;
+  }
+
+  .play .start {
+    margin-right: 20px;
+    font-size: 4rem;
+  }
+
+  .social li {
+    padding: 0.4rem;
+  }
+
+  .social {
+    bottom: 1.5rem;
+    right: 1.5rem;
+  }
+
+  .social li a ion-icon {
+    font-size: 2.5rem;
+  }
+
+  .slide {
+    background-size: cover;
+    background-position: center;
+  }
+
+  .slide:nth-child(1) {
+    background-position: 60%;
+  }
+
+  .slide:nth-child(3) {
+    background-position: 40%;
+  }
+
+  .slide:nth-child(4) {
+    background-position: 70%;
+  }
+
+  .slide:nth-child(8) {
+    background-position: 40%;
+  }
+
+  .slide:nth-child(9) {
+    background-position: 25%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  header {
+    padding: 2rem;
+  }
+
+  header .logo {
+    max-width: 5rem;
+  }
+
+  .landing {
+    background-position: 180vw;
+    padding: 0 2rem;
+  }
+
+  .content {
+    transform: translateY(-40%);
+  }
+
+  .content h2 {
+    font-weight: bold;
+    font-size: 1.25rem;
+  }
+
+  .content h4 {
+    font-size: 1rem;
+    letter-spacing: 0.06rem;
+  }
+
+  .content blockquote {
+    font-size: 1rem;
+    line-height: 1.7rem;
+    margin-bottom: 3rem;
+  }
+
+  blockquote q {
+    padding-bottom: 1.5rem;
+  }
+
+  .play {
+    padding-left: 1.5rem;
+    font-size: 1rem;
+  }
+
+  .play .start {
+    margin-right: 20px;
+    font-size: 2rem;
+  }
+
+  .social li {
+    padding: 0.4rem;
+  }
+
+  .social li a {
+    font-size: 0.8rem;
+  }
+
+  .social li a ion-icon {
+    font-size: 0.8rem;
+    margin-right: 0.5rem;
+  }
+
+  .slide {
+    font-size: 1.15rem;
+    font-weight: lighter;
+    line-height: 1.5rem;;
+  }
+
+  .slide h2 {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+  }
+
+  .left,
+  .right {
+    font-size: 2rem;
+  }
+
+  .left {
+    left: 2rem;
+  }
+
+  .right {
+    right: 2rem;
+  }
+}
